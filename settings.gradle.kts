@@ -1,7 +1,7 @@
 plugins {
     id("org.gradle.toolchains.foojay-resolver-convention") version "0.5.0"
 }
-rootProject.name = "geordi"
+rootProject.name = "rename-me"
 
 include("core")
-include("unitTest")
+include("integrationTests")
